@@ -1,8 +1,8 @@
 // ===========simple pop annd push in array
-// let colors:string[] = ["red","blue","yeloo"]
+let colors: string[] = ["red","blue","yeloo"]
 
-// colors.pop()
-// console.log(colors)
+colors.push("green")  
+console.log(colors)
 
 
 // ============= iterating an array
@@ -36,32 +36,32 @@
 
 // =======studennt grade examination Mini Project==========
 
-let grades: number[] = [85, 92, 78, 90, 88, 76];
+// let grades: number[] = [85, 92, 78, 90, 88, 76];
 
-function calculateAverage(grades: number[]): number {
-  let total = grades.reduce((sum, grade) => sum + grade, 0);
-  return total / grades.length;
-}
+// function calculateAverage(grades: number[]): number {
+//   let total = grades.reduce((sum, grade) => sum + grade, 0);
+//   return total / grades.length;
+// }
 
-let average = calculateAverage(grades);
-let highestGrade = Math.max(...grades);
-let lowestGrade = Math.min(...grades);
+// let average = calculateAverage(grades);
+// let highestGrade = Math.max(...grades);
+// let lowestGrade = Math.min(...grades);
 
-console.log(`Average Grade: ${average}`);
-console.log(`Highest Grade: ${highestGrade}`);
-console.log(`Lowest Grade: ${lowestGrade}`);
+// console.log(`Average Grade: ${average}`);
+// console.log(`Highest Grade: ${highestGrade}`);
+// console.log(`Lowest Grade: ${lowestGrade}`);
 
-grades.forEach((grade) => {
-  let message =
-    grade >= 90
-      ? "Excellent"
-      : grade >= 80
-      ? "Good"
-      : grade >= 70
-      ? "Needs Improvement"
-      : "Fail";
+// grades.forEach((grade) => {
+//   let message =
+//     grade >= 90
+//       ? "Excellent"
+//       : grade >= 80
+//       ? "Good"
+//       : grade >= 70
+//       ? "Needs Improvement"
+//       : "Fail";
 
-  console.log(`Grade: ${grade} - ${message}`);
-});
+//   console.log(`Grade: ${grade} - ${message}`);
+// });
 
 
